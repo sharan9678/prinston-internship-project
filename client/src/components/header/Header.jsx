@@ -81,7 +81,7 @@ return (
             </h1>
             <p className="headerDesc">
             Get rewarded for your travels – unlock instant savings of 10% or
-            more with a free Lamabooking account
+            more with a free booking account
             </p>
             <button className="headerBtn">Sign in / Register</button>
             <div className="headerSearch">
@@ -150,18 +150,14 @@ return (
                         disabled={options.children <= 0}
                         className="optionCounterButton"
                         onClick={() => handleOption("children", "d")}
-                        >
-                        -
-                        </button>
+                        >-</button>
                         <span className="optionCounterNumber">
                         {options.children}
                         </span>
                         <button
                         className="optionCounterButton"
                         onClick={() => handleOption("children", "i")}
-                        >
-                        +
-                        </button>
+                        >+</button>
                     </div>
                     </div>
                     <div className="optionItem">
@@ -171,27 +167,21 @@ return (
                         disabled={options.room <= 1}
                         className="optionCounterButton"
                         onClick={() => handleOption("room", "d")}
-                        >
-                        -
-                        </button>
+                        >-</button>
                         <span className="optionCounterNumber">
                         {options.room}
                         </span>
                         <button
                         className="optionCounterButton"
                         onClick={() => handleOption("room", "i")}
-                        >
-                        +
-                        </button>
+                        >+</button>
                     </div>
                     </div>
                 </div>
                 )}
             </div>
             <div className="headerSearchItem">
-                <button className="headerBtn" onClick={handleSearch}>
-                Search
-                </button>
+                <button className="headerBtn" onClick={handleSearch}>Search</button>
             </div>
             </div>
         </>
